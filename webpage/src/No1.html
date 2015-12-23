@@ -1,0 +1,106 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>第一回目Webデザイン</title>
+	<link rel="stylesheet" href="No1style.css">
+	<link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
+	<script src="jquery-1.11.3.js"></script>
+
+	<script>
+	$(function(){
+		$('h2').hover(
+			function(){
+				$(this).stop().animate({backgroundColor: '#ffaa00'},3000);
+			},
+			function(){
+				$(this).stop().animate({backgroundColor: '#1E98B9'},100);
+			}
+			);
+	});
+	</script>
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="site">
+			<h1>EVER GREEN</h1>
+		</div>
+	</div>
+
+	<div class="boxA">
+		<div class="leftside">
+
+			<aside class="profile">
+				<h3>Profile</h3>
+				<ul>
+					<li>サークル名</li>
+					<li>メンバー数</li>
+					<li>活動日</li>
+					<li>創立日</li>
+				</ul>
+			</aside>
+
+			<nav class="navi">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a href="#">　　TOP</a></li>
+					<li><a href="#">　　メンバー紹介</a></li>
+					<li><a href="#">　　主なイベント</a></li>
+					<li><a href="#">　　活動拠点</a></li>
+					<li><a href="#">　　コンタクト</a></li>
+					<li><a href="#">　　活動日記</a></li>
+				</ul>
+			</nav>
+
+			<div class="galary">
+				<section class="image">
+					<a href="#"><img src="../img/bag-150x150.jpg" alt=""></a>
+				</section>
+
+				<section class="image">
+					<a href="#"><img src="../img/bag-150x150.jpg" alt=""></a>
+				</section>
+
+				<section class="image">
+					<a href="#"><img src="../img/bag-150x150.jpg" alt=""></a>
+				</section>
+
+				<section class="image">
+					<a href="#"><img src="../img/bag-150x150.jpg" alt=""></a>
+				</section>
+			</div>
+
+		</div>
+
+		<div class="main">
+			<article class="content">
+				<h2>BBQ</h2>
+				<p></p>
+			</article>
+
+			<article class="content">
+				<h2>HalloweenParty</h2>
+				<p></p>
+			</article>
+
+			<article class="content">
+				<h2>BarEvent</h2>
+				<p></p>
+			</article>
+		</div>
+
+
+	</div>
+
+	<footer>
+		<aside>
+			<p>This Web Page Was Written By TOMOHISA MAWATARI aka GYOKU</p>
+			<p class="copy">Copyright &copy; EVER GREEN</p>
+		</aside>
+	</footer>
+
+</body>
+
+</html>

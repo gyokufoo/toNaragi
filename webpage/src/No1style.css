@@ -1,0 +1,197 @@
+@charset "UTF-8"
+
+body{
+	font-family: 'メイリオ',
+	'Hiragino Kaku Gothic Pro',
+	'sans-serif';
+}
+
+body{
+	margin: 0;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ヘッダー */
+
+.header{
+	background-color : #1BA466;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.site{
+	color: #ffffff;
+	padding-left: 10px;
+	font-family: 'Boogaloo', cursive;
+}
+
+.site h1{
+	font-size: 40px;
+	margin: 0;
+	font-weight: 300;
+}
+
+h3{
+	font-family: 'Boogaloo', cursive;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+
+h2{
+	font-family: 'Boogaloo', cursive;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 100;
+}
+
+
+/* 左側 */
+
+.leftside{
+	float: left;
+	width: 30%;
+	clear:both;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+.profile{
+	border: 1px solid #dcdcdc;
+}
+
+.profile h3{
+	margin:0;
+	background-color: #F0BA32;
+}
+
+.profile ul{
+	padding-left: 30px;
+	list-style: none;
+}
+
+.profile li{
+	font-size: 14px;
+}
+
+/* ナビ */
+
+.navi{
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+}
+
+.navi h3{
+	background-color: #B2CF3E;
+	margin: 0;
+}
+
+.navi ul{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.navi a{
+	display: block;
+	text-decoration: none;
+	color: #000000;
+}
+
+.navi a:hover{
+	background-color: #F4D0DF;
+}
+
+.navi li{
+	font-size: 14px;
+}
+
+
+/* ギャラリー */
+
+.galary{
+	margin-top: 20px;
+	clear: both;
+}
+
+.image{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.image img{
+	max-width:100%;
+}
+
+.image a{
+	display: block;
+}
+
+.image a:hover{
+	box-shadow: 0 0 7px #F3D1E5;
+}
+
+/* コンテンツ(右側) */
+
+.main{
+	float: left;
+	width: 70%;
+	padding-left: 10px;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+
+.main .content{
+	border: 1px solid #dcdcdc;
+	margin-top: 10px;
+	height: 220px;
+}
+
+.main .content:hover{
+	box-shadow: 0px 0px 10px #F3D1E5;
+}
+
+.main .content h2{
+	background-color: #1E98B9;
+	margin:0;
+}
+
+/* フッター */
+
+footer{
+	padding-top: 10px;
+	border-top: dotted 1px #dcdcdc;
+}
+
+footer p{
+	margin: 0;
+	font-size: 12px;
+	color: #666666;
+}
+
+
+/* boxA */
+
+.boxA{
+	padding-bottom: 20px;
+}
+
+.boxA:after{
+	display:block;
+	content: "";
+	clear:both;
+}
+
+
